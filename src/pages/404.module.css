@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container img {
+  width: 300px;
+  margin-bottom: 30px;
+}
+
+.container a {
+  border: 1px solid #fe5d42;
+  width: 200px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: transparent;
+  color: #fe5d42;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.15s ease-in;
+}
+
+.container a:hover {
+  background-color: #f7753d49;
+}
+
+.container a div {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container a div span {
+  margin-left: 15px;
+}
