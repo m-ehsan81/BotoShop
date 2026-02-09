@@ -25,7 +25,7 @@ function Layout({ children }) {
       </header>
       {children}
       <footer className={styles.footer}>
-        <p>Developed by Ehsan with 🤍</p>
+        <p>Developed by Shayan with 🤍</p>
       </footer>
     </>
   );
